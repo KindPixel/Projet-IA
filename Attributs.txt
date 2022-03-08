@@ -1,0 +1,36 @@
+<class 'pandas.core.frame.DataFrame'>
+Int64Index: 4410 entries, 0 to 4409
+Data columns (total 29 columns):
+ #   Column                   Non-Null Count  Dtype  
+---  ------                   --------------  -----  		Est ce qu'on prend ? Oral only
+ 0   Age                      4410 non-null   int64    ||	Oui? Ethique
+ 1   Attrition                4410 non-null   object   ||	X
+ 2   BusinessTravel           4410 non-null   object   ||	Oui
+ 3   Department               4410 non-null   object   ||	Non
+ 4   DistanceFromHome         4410 non-null   int64    ||	Oui
+ 5   Education                4410 non-null   int64    ||	Non
+ 6   EducationField           4410 non-null   object   ||	Non? Ethique
+ 7   EmployeeCount            4410 non-null   int64    ||	Non
+ 8   EmployeeID               4410 non-null   int64    ||	Non
+ 9   Gender                   4410 non-null   object   ||	Non? Ethique
+ 10  JobLevel                 4410 non-null   int64    ||	Oui
+ 11  JobRole                  4410 non-null   object   ||	Oui
+ 12  MaritalStatus            4410 non-null   object   ||	Non? Ethique
+ 13  MonthlyIncome            4410 non-null   int64    ||	Oui? Ethique
+ 14  NumCompaniesWorked       4391 non-null   float64  ||	Oui
+ 15  Over18                   4410 non-null   object   ||	Non|Useless
+ 16  PercentSalaryHike        4410 non-null   int64    ||	Oui
+ 17  StandardHours            4410 non-null   int64    ||	Oui
+ 18  StockOptionLevel         4410 non-null   int64    ||	Oui
+ 19  TotalWorkingYears        4401 non-null   float64  ||	Non
+ 20  TrainingTimesLastYear    4410 non-null   int64    ||	Oui
+ 21  YearsAtCompany           4410 non-null   int64    ||	Oui
+ 22  YearsSinceLastPromotion  4410 non-null   int64    ||	Oui
+ 23  YearsWithCurrManager     4410 non-null   int64    ||	Oui
+ 24  EnvironmentSatisfaction  4385 non-null   float64  ||	Oui
+ 25  JobSatisfaction          4390 non-null   float64  ||	Oui
+ 26  WorkLifeBalance          4372 non-null   float64  ||	Oui
+ 27  JobInvolvement           4410 non-null   int64    ||	Oui
+ 28  PerformanceRating        4410 non-null   int64    ||	Oui
+dtypes: float64(5), int64(16), object(8)
+memory usage: 1.0+ MB
